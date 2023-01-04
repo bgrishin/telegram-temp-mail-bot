@@ -5,10 +5,10 @@ export const getEmailMessage = ({
   textBody,
   attachments,
 }) =>
-  `👤 From: *${from}*\n🪧 Subject: *${subject}*\n📆 Date: *${date}*\n\n📌 Attachements: ${
+  `👤 From: *${from}*\n🪧 Subject: *${subject}*\n📆 Date: *${date}*\n\n📌 Attachments: ${
     !attachments.length
-      ? "*no attachements*"
+      ? "*no attachments*"
       : attachments
-          .map((attachement) => `\n\t\t*${attachement.filename}*`)
+          .map((attachment) => `\n\t\t*${attachment.filename}*`)
           .join("")
   }\n\n*${textBody}*`;
