@@ -19,7 +19,7 @@ REDIS_URL=<your redis url>
 ## 🐳 How to build with docker
 
 1. Write your telegram token and redis url like before
-2. Make sure that you are in directory with bot and write `sudo docker build -f Dockerfile temp-mail-bot .` command to create docker image.
+2. Make sure that you are in directory with bot and write `sudo docker build -f Dockerfile -t temp-mail-bot .` command to create docker image.
 3. Run container with command `docker run -d temp-mail-bot`
 4. That's it!
 
