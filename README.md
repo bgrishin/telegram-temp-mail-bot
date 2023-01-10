@@ -4,6 +4,8 @@
 ## 📋Description
 This bot can generate temp-mail email addresses using api and "Redis"
 
+Live example: https://t.me/temp_mail_messages_bot
+
 ## 🦾 How to run?
 1. Clone the project
 2. Write `npm i` command
