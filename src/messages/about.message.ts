@@ -1,2 +1,2 @@
 export const aboutMessage =
-  "👨‍💻 Bot created by <a href='https://bogdan-grishin.github.io/resume/'>Bogdan Grishin</a>";
+  "👨‍💻 Bot created by <a href='https://bgrishin.me/'>Bogdan Grishin</a>";
